@@ -1,0 +1,47 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+    
+}
+.head{
+    width: 45%;
+    height: 300px;
+    margin: 0 auto;
+    margin-top: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    background-color: blueviolet;
+    border-radius: 10px;
+}
+.in1{
+    width: 40%;
+    padding: 10px 10px;
+}
+.in2{
+    width: 40%;
+    padding: 10px 10px;
+}
+.in3{
+    width: 20%;
+    padding: 10px 10px;
+    background-color: lightgreen;
+    font-size: medium;
+    border-radius: 10px;
+    border: 1px solid lightgreen;
+
+}
+.in3:hover{
+    transform: scale(80%);
+    transition: 1s;
+}
+.head h2{
+    color: lightgreen;
+    font-family: sans-serif;
+}
