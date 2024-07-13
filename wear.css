@@ -302,6 +302,7 @@
     width: 90%;
     height: 75%;
     border-radius: 10px;
+    
     position: relative;
     
     
@@ -3702,5 +3703,5 @@
         display: flex;
         gap: 80px;
         justify-content: space-between;
-    }
+}
 }
